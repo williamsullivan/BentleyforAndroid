@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="#00429e"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="center">
+	<ImageView android:id="@+id/picview" android:padding="5dp"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:background="#FFFFFF">
+		<TextView android:id="@+id/textviewSpacer"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textSize="1sp" android:textColor="#FFFFFF" android:text=" " />
+
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:background="#fcd500" android:gravity="center">
+			<TextView android:id="@+id/textview" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:typeface="serif" android:textStyle="bold" android:textSize="16sp"
+				android:textColor="#00429e" android:text="phone book" />
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:background="#FFFFFF">
+				<TextView android:id="@+id/textviewSpacer"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:textSize="1sp" android:textColor="#FFFFFF" android:text=" " />
+			
+			<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:background="#00429e" android:padding="2px">
+	<EditText 
+	android:id="@+id/selection" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+	</EditText>           
+
+<ListView
+	android:id= "@android:id/list"
+	android:layout_width= "fill_parent"
+	android:layout_height= "fill_parent"
+	android:drawSelectorOnTop= "false"
+	/>
+	
+	</LinearLayout>	
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
